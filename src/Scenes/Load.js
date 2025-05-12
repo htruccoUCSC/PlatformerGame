@@ -29,9 +29,9 @@ class Load extends Phaser.Scene {
       "platformer-level-1B.tmj"
     ); // Tilemap in JSON
 
-    this.load.audio("jump1", "jump1.mp3");
-    this.load.audio("jump2", "jump2.mp3");
-    this.load.audio("jump3", "jump3.mp3");
+    this.load.audio("jump1", "Jump1.mp3");
+    this.load.audio("jump2", "Jump2.mp3");
+    this.load.audio("jump3", "Jump3.mp3");
     this.load.audio("coin_collect", "coin.mp3");
     this.load.audio("splash", "splash.mp3");
     this.load.audio("checkpoint", "checkpoint.ogg");
